@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Charm|Thasadith');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+    /* font-family: 'Thasadith', sans-serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-size: 26px;
+}
+.container{
+    /* width: 50%; */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+.title{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Charm', cursive;
+    font-size: 40px;
+}
+.additems-cont, ul{
+    margin: auto;
+}
+ul{
+    /* border: 1px solid red; */
+    width: 50%;
+    /* height: 100px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+li:hover{
+    text-decoration: line-through;
+    cursor: pointer; 
+    color: #7B241C;
+}
+.additems-cont{
+    /* margin-top: 100px; */
+    /* border: 1px solid blue; */
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+input{
+    border: 0;
+    border-bottom: 2px solid black; 
+    height: 50px;
+    width: 40%;
+    font-size: 20px;
+    outline: none;
+}
+.btn{
+    margin-left: 20px;
+    border: 0;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black; 
+    background-color: transparent;
+    font-size: 16px; 
+    height: 50px;
+    outline: none;
+}
+.btn:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #7B241C;
+    border-left: 2px solid #7B241C;
+}
